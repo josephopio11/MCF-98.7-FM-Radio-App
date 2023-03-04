@@ -1,0 +1,52 @@
+name: radio
+description: Radio App for u
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  radio_player: ^1.2.1
+  url_launcher: ^6.1.10
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_launcher_icons: ^0.12.0
+  
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo5.png
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo5.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo5.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/logo5.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo5.png"
+
